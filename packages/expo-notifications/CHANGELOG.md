@@ -14,6 +14,7 @@
 
 ### 🐛 Bug fixes
 
+- export `PermissionStatus` as value, not as type ([#31968](https://github.com/expo/expo/pull/31968) by [@vonovak](https://github.com/vonovak))
 - throw improved error on invalid subscription in removeNotificationSubscription ([#31842](https://github.com/expo/expo/pull/31842) by [@vonovak](https://github.com/vonovak))
 - [android] fix notifications actions not being presented ([#31795](https://github.com/expo/expo/pull/31795) by [@vonovak](https://github.com/vonovak))
 - Add missing `react` and `react-native` peer dependencies for isolated modules. ([#30478](https://github.com/expo/expo/pull/30478) by [@byCedric](https://github.com/byCedric))
@@ -287,6 +288,7 @@ _This version does not introduce any user-facing changes._
 
 ### 🛠 Breaking changes
 
+- remove `usePermissions` hook ([#31905](https://github.com/expo/expo/pull/31905) by [@vonovak](https://github.com/vonovak))
 - [android] Set the "notification number" (sometimes used to increment badge count on some launchers) from the notification payload `badge` field. ([#17171](https://github.com/expo/expo/pull/17171) by [@danstepanov](https://github.com/danstepanov))
 
 ### 🐛 Bug fixes

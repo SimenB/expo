@@ -8,6 +8,7 @@
 
 ### 🎉 New features
 
+- [iOS] Add RTL support in swiftui. ([#40335](https://github.com/expo/expo/pull/40335) by [@kfirfitousi](https://github.com/kfirfitousi))
 - [Android] Add Carousel component. ([#40325](https://github.com/expo/expo/pull/40325) by [@aleqsio](https://github.com/aleqsio))
 - [iOS] Add `scrollDismissesKeyboard` modifier. ([#40201](https://github.com/expo/expo/pull/40201) by [@christianwooldridge](https://github.com/christianwooldridge))
 - [Android] Add Android BottomSheet ([#37553](https://github.com/expo/expo/pull/37553) by [@Jeroen-G](https://github.com/Jeroen-G))
@@ -26,7 +27,10 @@
 - [iOS] Added `header` and `footer` props for sections, support for collapsible sections, and headerProminence modifier ([#40340](https://github.com/expo/expo/pull/40340) by [@doombladeoff](https://github.com/doombladeoff))
 - [iOS] Add new modifiers (`listRowInsets`, `listSectionMargins`, `badgeProminence`, `badge`) ([#40329](https://github.com/expo/expo/pull/40329) by [@doombladeoff](https://github.com/doombladeoff))
 - Add Interpolated string support in button ([#40416](https://github.com/expo/expo/pull/40416) by [@intergalacticspacehighway](https://github.com/intergalacticspacehighway))
+- [iOS] Added Popover component ([#40454](https://github.com/expo/expo/pull/40454) by [@doombladeoff](https://github.com/doombladeoff))
 - [iOS] Add RectangleMark and RuleMark support to Chart component ([#40046](https://github.com/expo/expo/pull/40046) by [@hryhoriiK97](https://github.com/hryhoriiK97))
+- Adds selection API in text field, autoFocus, onSubmit event and rounded rectangle (squircle) support in glassEffect. ([#40455](https://github.com/expo/expo/pull/40455) by [@intergalacticspacehighway](https://github.com/intergalacticspacehighway))
+- [iOS] Add `font` modifier ([#40553](https://github.com/expo/expo/pull/40553) by [@nishan](https://github.com/intergalacticspacehighway))
 
 ### 🐛 Bug fixes
 
